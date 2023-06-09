@@ -52,8 +52,8 @@ char* hash_string(char* input, char* seed, int seed_length, int batch_count)
 }
 
 int main() {
-    char* input = (char *)"_2ndTabID2CurScrollerIndexDict";
-    char* known_hash = (char *)"MIPMIODJLIG";
+    char* input = (char *)"youramazinginput";
+    char* known_hash = (char *)"ABCDEFGHIJK";
     int seed_len = 16;
 
     int batch_count = 2048;
