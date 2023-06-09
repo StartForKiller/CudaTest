@@ -8,7 +8,6 @@
 #include <string.h>
 #include <math.h>
 
-#include "./cuda_kernel.cuh"
 #include "./sha1.cuh"
 
 #define BUFFER_SIZE 20

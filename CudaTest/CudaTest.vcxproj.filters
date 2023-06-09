@@ -20,17 +20,11 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cuda_kernel.cuh">
-      <Filter>Archivos de origen</Filter>
-    </ClInclude>
     <ClInclude Include="sha1.cuh">
       <Filter>Archivos de origen</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CudaCompile Include="cuda_kernel.cu">
-      <Filter>Archivos de origen</Filter>
-    </CudaCompile>
     <CudaCompile Include="sha1.cu">
       <Filter>Archivos de origen</Filter>
     </CudaCompile>
